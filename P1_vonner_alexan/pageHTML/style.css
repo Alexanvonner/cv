@@ -1,0 +1,189 @@
+body
+{
+	margin: 0;
+	padding:0;
+	width: auto;
+}
+
+header
+{
+	background-color:#6b52e6;
+	height: 400px;
+}
+
+article
+{
+	background-color:#ffffff 
+	height: 500px
+}
+
+footer
+{
+	background-color:#203966;
+	height: 350px;
+}
+
+.element1
+{
+	width: 300px;
+	height:50px;
+	padding-top: 20px;
+	margin-left: 155px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.element2
+{
+	width: 250px;
+	height: 40px;
+	margin-left: 155px;
+	margin-bottom: 20px;
+	margin-top:-10px;	
+}
+
+.gras
+{
+	font-size: 2em;
+	background-color: #86eca5;
+	margin-bottom: 20px
+	width:200px;
+	color: #203966;
+	font-family: 'Roboto', sans-serif;
+}
+
+.element3
+{
+	width: 500px;
+	height: 200px;
+	padding-left: 150px;
+	padding-top: 30px;
+	color: white;
+	font-family: 'Cairo', sans-serif;}
+
+.element4
+{
+	position: absolute;
+	top: 80px;
+	right: 150px;
+}
+
+@media screen and (max-width: 1024px){
+	.photo1
+	{
+		width: 100px;
+		height: 140px;
+		margin-top: 180px;
+	}
+	.element4
+	{
+		position: absolute;
+		top: 80px;
+		left: 100px;
+		right: 100px;
+		display: flex;
+		justify-content: center;
+	}
+	.logo2
+	{
+		display: none;
+	}
+	.mescompetences,.parabas
+	{
+		position:relative;
+		left:-500px;
+		width: 400px;
+		top: -35px;
+	}
+	.container2
+	{
+		margin-top: 20px;
+	}
+	.projet,.réseaux,.container2
+	{
+		padding-left: 10px;
+	}
+}
+
+.photo1
+{
+	border-radius: 10px 10px 10px;
+}
+
+.parabas 
+{
+	padding-right: 80px;
+	margin-left: 600px;
+	height: 250px;
+	color: #203966;
+	text-align: justify;
+	font-family: 'Cairo', sans-serif;
+}
+
+.mescompetences
+{
+	width: 600px;
+	height: 90px;
+	margin-left: 600px;
+	padding-top:70px;
+	color: #203966;
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.competences
+{
+	background-color: #86eca5;
+	color: #203966;
+}
+
+.logo2
+{
+	width: 600px;
+	position: absolute;
+	top: 100px;
+	left: 90px;
+	height:500px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20em;
+	color: #203966;
+}
+
+.réseaux
+{
+	height:50px;
+	padding-top: 60px;
+  	padding-left: 150px;
+	color:white;
+	font-size: 1.6em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.projet
+{
+	padding-left: 150px;
+	color: white;
+	height: 60px;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+
+.ideeprojet
+{
+	background-color: #86eca5;
+	color: #203966;
+  
+}
+
+.container2
+{
+	display: flex;
+	padding-left: 150px;
+
+}
+
+.chat,.in
+{
+	margin-left: 25px;
+}
